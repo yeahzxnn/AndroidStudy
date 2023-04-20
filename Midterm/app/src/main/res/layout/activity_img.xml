@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImgActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:text="이미지 선택"/>
+    <RadioGroup
+        android:id="@+id/rad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/radCat"
+            android:text="고양이"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:id="@+id/radDog"
+            android:text="강아지"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="토끼"
+            android:layout_height="wrap_content"
+            android:id="@+id/radRab"/>
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/userIv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/rotCheck"
+        android:text="이미지 90도 회전"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:backgroundTint="#12FF0B"
+        android:id="@+id/btnBack"
+        android:layout_margin="10dp"
+        android:text="돌아가기"/>
+
+</LinearLayout>

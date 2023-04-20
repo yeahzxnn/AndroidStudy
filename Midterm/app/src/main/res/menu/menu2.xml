@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/it1"
+        android:title="학과 초기화"/>
+    <item
+        android:id="@+id/it2"
+        android:title="학번 초기화"/>
+    <item
+        android:id="@+id/it3"
+        android:title="이름 초기화"/>
+
+</menu>
